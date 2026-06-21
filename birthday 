@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday XYZ ✈️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0a1931,#185adb,#43c6ac);
+    overflow:hidden;
+}
+
+.container{
+    width:90%;
+    max-width:700px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(12px);
+    padding:40px;
+    border-radius:25px;
+    text-align:center;
+    color:white;
+    box-shadow:0 0 30px rgba(255,255,255,0.2);
+}
+
+h1{
+    font-size:3rem;
+    color:#FFD700;
+    margin-bottom:10px;
+}
+
+h2{
+    font-size:1.8rem;
+    margin-bottom:20px;
+}
+
+p{
+    font-size:1.15rem;
+    line-height:1.8;
+    margin:15px 0;
+}
+
+.quote{
+    color:#FFE082;
+    font-style:italic;
+    font-size:1.25rem;
+    margin:20px 0;
+}
+
+.plane{
+    font-size:70px;
+    animation:fly 4s infinite ease-in-out;
+}
+
+@keyframes fly{
+    0%{
+        transform:translateX(-25px) rotate(-10deg);
+    }
+    50%{
+        transform:translateX(25px) rotate(10deg);
+    }
+    100%{
+        transform:translateX(-25px) rotate(-10deg);
+    }
+}
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#FFD700;
+    color:#000;
+    font-size:18px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+
+footer{
+    margin-top:25px;
+    opacity:0.8;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="plane">✈️</div>
+
+    <h1>Happy Birthday 🎂</h1>
+
+    <h2>XYZ ❤️</h2>
+
+    <p>
+        Today is all about celebrating an amazing girl who dares to dream big.
+    </p>
+
+    <p>
+        As an <b>Aviation Trainee</b>, you are preparing to conquer the skies.
+        Every lesson you learn and every challenge you overcome brings you
+        one step closer to your dreams.
+    </p>
+
+    <div class="quote">
+        "Dear XYZ, the sky is not your limit—it's your playground."
+    </div>
+
+    <p>
+        Keep dreaming fearlessly, keep believing in yourself,
+        and never let setbacks dim your shine.
+        The world belongs to those who have the courage to chase their dreams.
+    </p>
+
+    <p>
+        May this birthday bring you happiness, success, and endless opportunities.
+        One day you'll fly higher than you ever imagined,
+        and everyone will look up and say,
+        <b>"That's XYZ, the girl who turned her dreams into reality."</b>
+    </p>
+
+    <button onclick="showWish()">🎁 Open Birthday Wish</button>
+
+    <footer>
+        Made with ❤️ for XYZ
+    </footer>
+
+</div>
+
+<script>
+function showWish(){
+    alert(
+`🎂 HAPPY BIRTHDAY XYZ! ✈️
+
+May your dreams soar beyond the clouds,
+your courage stay stronger than turbulence,
+and your future shine brighter than the stars.
+
+Keep flying, Dreamer! ❤️`
+    );
+}
+</script>
+
+</body>
+</html>
